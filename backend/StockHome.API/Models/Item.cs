@@ -1,0 +1,15 @@
+﻿namespace StockHome.API.Models
+{
+    public class Item
+    {
+
+        public Guid Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; } = null!;
+
+
+    }
+}

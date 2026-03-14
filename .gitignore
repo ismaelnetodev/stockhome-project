@@ -692,4 +692,8 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+backend/StockHome.API/app.db
+backend/StockHome.API/app.db-shm
+backend/StockHome.API/app.db-wal
+
 # End of https://www.toptal.com/developers/gitignore/api/csharp,nextjs,node,aspnetcore
